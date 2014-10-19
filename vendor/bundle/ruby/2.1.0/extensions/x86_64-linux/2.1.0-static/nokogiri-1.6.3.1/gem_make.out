@@ -1,0 +1,132 @@
+/home/vagrant/.rbenv/versions/2.1.3/bin/ruby extconf.rb 
+Building nokogiri using system libraries.
+checking for xmlParseDoc() in libxml/parser.h... yes
+checking for xsltParseStylesheetDoc() in libxslt/xslt.h... yes
+checking for exsltFuncRegister() in libexslt/exslt.h... yes
+checking for xmlHasFeature()... yes
+checking for xmlFirstElementChild()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetParserStructuredErrors()... yes
+checking for xmlRelaxNGSetValidStructuredErrors()... yes
+checking for xmlSchemaSetValidStructuredErrors()... yes
+checking for xmlSchemaSetParserStructuredErrors()... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling xml_entity_decl.c
+compiling html_document.c
+compiling xml_libxml2_hacks.c
+compiling xml_syntax_error.c
+compiling xml_sax_push_parser.c
+compiling xml_encoding_handler.c
+compiling xml_sax_parser_context.c
+compiling xml_processing_instruction.c
+compiling xml_document.c
+xml_document.c: In function ‘set_encoding’:
+xml_document.c:182: 警告: キャストによってポインタが示す型から修飾子が切り捨てられます
+xml_document.c: In function ‘canonicalize’:
+xml_document.c:529: 警告: キャストによってポインタが示す型から修飾子が切り捨てられます
+compiling nokogiri.c
+compiling xml_element_decl.c
+compiling html_sax_push_parser.c
+compiling xml_attr.c
+compiling xml_dtd.c
+compiling xml_text.c
+compiling xslt_stylesheet.c
+compiling html_element_description.c
+html_element_description.c: In function ‘get_description’:
+html_element_description.c:252: 警告: キャストによってポインタが示す型から修飾子が切り捨てられます
+compiling xml_schema.c
+compiling html_entity_lookup.c
+compiling xml_node.c
+xml_node.c: In function ‘mark’:
+xml_node.c:17: 警告: initialization from incompatible pointer type
+xml_node.c: In function ‘reparent_node_with’:
+xml_node.c:168: 警告: enumeration value ‘XML_ATTRIBUTE_NODE’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_ENTITY_NODE’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_DOCUMENT_NODE’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_DOCUMENT_FRAG_NODE’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_NOTATION_NODE’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_HTML_DOCUMENT_NODE’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_DTD_NODE’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_ELEMENT_DECL’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_ATTRIBUTE_DECL’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_ENTITY_DECL’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_NAMESPACE_DECL’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_XINCLUDE_START’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_XINCLUDE_END’ not handled in switch
+xml_node.c:168: 警告: enumeration value ‘XML_DOCB_DOCUMENT_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_ATTRIBUTE_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_ENTITY_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_DOCUMENT_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_DOCUMENT_TYPE_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_DOCUMENT_FRAG_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_NOTATION_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_HTML_DOCUMENT_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_DTD_NODE’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_ELEMENT_DECL’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_ATTRIBUTE_DECL’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_ENTITY_DECL’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_NAMESPACE_DECL’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_XINCLUDE_START’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_XINCLUDE_END’ not handled in switch
+xml_node.c:186: 警告: enumeration value ‘XML_DOCB_DOCUMENT_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_ELEMENT_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_ATTRIBUTE_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_CDATA_SECTION_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_ENTITY_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_PI_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_COMMENT_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_DOCUMENT_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_DOCUMENT_TYPE_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_DOCUMENT_FRAG_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_NOTATION_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_HTML_DOCUMENT_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_DTD_NODE’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_ELEMENT_DECL’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_ATTRIBUTE_DECL’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_ENTITY_DECL’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_NAMESPACE_DECL’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_XINCLUDE_START’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_XINCLUDE_END’ not handled in switch
+xml_node.c:197: 警告: enumeration value ‘XML_DOCB_DOCUMENT_NODE’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_CDATA_SECTION_NODE’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_ENTITY_NODE’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_PI_NODE’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_COMMENT_NODE’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_DOCUMENT_TYPE_NODE’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_NOTATION_NODE’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_DTD_NODE’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_ELEMENT_DECL’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_ATTRIBUTE_DECL’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_ENTITY_DECL’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_NAMESPACE_DECL’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_XINCLUDE_START’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_XINCLUDE_END’ not handled in switch
+xml_node.c:165: 警告: enumeration value ‘XML_DOCB_DOCUMENT_NODE’ not handled in switch
+compiling xml_element_content.c
+compiling xml_sax_parser.c
+compiling xml_cdata.c
+compiling xml_xpath_context.c
+compiling xml_attribute_decl.c
+compiling xml_namespace.c
+compiling xml_entity_reference.c
+compiling html_sax_parser_context.c
+compiling xml_io.c
+compiling xml_relax_ng.c
+compiling xml_node_set.c
+xml_node_set.c: In function ‘dealloc_namespace’:
+xml_node_set.c:9: 警告: キャストによってポインタが示す型から修飾子が切り捨てられます
+xml_node_set.c:11: 警告: キャストによってポインタが示す型から修飾子が切り捨てられます
+compiling xml_reader.c
+compiling xml_document_fragment.c
+compiling xml_comment.c
+linking shared-object nokogiri/nokogiri.so
+Cleaning files only used during build.
+rm -rf /home/vagrant/rails_projects/sample_app/vendor/bundle/ruby/2.1.0/gems/nokogiri-1.6.3.1/ports/archives
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nokogiri.so ./.gem.20141019-17821-1apeckd/nokogiri
+installing default nokogiri libraries
