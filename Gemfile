@@ -14,6 +14,7 @@ group :test do
   gem 'nokogiri'
 #  gem 'capybara', '2.1.0'
   gem 'capybara'
+  gem 'shoulda-matchers', '~> 2.6.0'
 end
 
 # Use SCSS for stylesheets
