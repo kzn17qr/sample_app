@@ -1,12 +1,15 @@
 source 'https://rubygems.org'
 ENV['NOKOGIRI_USE_SYSTEM_LIBRARIES'] = 'YES'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
-# Use sqlite3 as the database for Active Record
+
 group :development, :test do
-  gem 'sqlite3', '1.3.8'
+#  gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
+#  gem 'spork-rails', '4.0.0'
+#  gem 'guard-spork', '1.5.0'
+#  gem 'childprocess', '0.3.6'
 end
 
 group :test do
@@ -15,6 +18,7 @@ group :test do
 #  gem 'capybara', '2.1.0'
   gem 'capybara'
   gem 'shoulda-matchers', '~> 2.6.0'
+#  gem 'terminal-notifier-guard'
 end
 
 # Use SCSS for stylesheets
@@ -50,8 +54,9 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'pg', '0.15.1'
 group :production do
-  gem 'pg', '0.15.1'
+#  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
 
