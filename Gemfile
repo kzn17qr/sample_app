@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
+
+# ENV
 ENV['NOKOGIRI_USE_SYSTEM_LIBRARIES'] = 'YES'
 
 gem 'rails', '4.1.0'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
 
 group :development, :test do
 #  gem 'sqlite3', '1.3.8'
